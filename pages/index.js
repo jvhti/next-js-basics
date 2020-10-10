@@ -1,9 +1,11 @@
 import React from 'react';
+import Link from "next/link";
 
 const indexPage = () => {
   return (
       <div>
         <h1>The Main Page</h1>
+        <p>Go to <Link href="/auth">Auth</Link></p>
       </div>
   );
 };
